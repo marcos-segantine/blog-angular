@@ -10,6 +10,7 @@ import { PortifolioComponent } from './pages/portifolio/portifolio.component';
 import { CarroselComponent } from './components/carrosel/carrosel.component';
 import { TopicsComponent } from './components/topics/topics.component';
 import { ArticlesHomeComponent } from './components/articles-home/articles-home.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ArticlesHomeComponent } from './components/articles-home/articles-home.
     PortifolioComponent,
     CarroselComponent,
     TopicsComponent,
-    ArticlesHomeComponent
+    ArticlesHomeComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
