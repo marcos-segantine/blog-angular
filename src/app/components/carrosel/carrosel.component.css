@@ -6,22 +6,7 @@
 
 #prev-banner,
 #next-banner {
-    height: 100%;
-    width: max-content;
-    display: flex;
-    align-items: flex-end;
-}
-
-#prev-banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#next-banner {
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: none;
 }
 
 .navegation-banner {
@@ -30,7 +15,7 @@
     right: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .navegation-banner span {
@@ -41,9 +26,28 @@
 }
 
 @media(min-width: 767px) {
+
     #prev-banner,
     #next-banner {
+        height: 100%;
+        width: max-content;
         display: flex;
         align-items: center;
+    }
+
+    #prev-banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #next-banner {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .navegation-banner {
+        justify-content: center;
     }
 }
