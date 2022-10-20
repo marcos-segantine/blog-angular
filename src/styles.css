@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #131219;
+    --purple: #9156ec;
+    --gray: #b4b4b4;
+}
+
+li {
+    list-style: none;
+}
