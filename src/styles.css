@@ -11,6 +11,27 @@ body {
     --gray: #b4b4b4;
 }
 
+body {
+    background-color: var(--background);
+    color: var(--gray);
+}
+
 li {
     list-style: none;
+}
+
+button {
+    background-color: var(--purple);
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+.under-title {
+    width: 100px;
+    height: 2px;
+    background-color: var(--purple);
+    transition: all .5s;
 }

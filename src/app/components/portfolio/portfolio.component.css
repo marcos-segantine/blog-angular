@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.portfolio:hover .under-title {
+    width: 150px;
+}
+
 .about-portfolio {
     width: 90%;
     height: 15rem;

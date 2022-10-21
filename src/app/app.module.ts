@@ -11,6 +11,7 @@ import { CarroselComponent } from './components/carrosel/carrosel.component';
 import { TopicsComponent } from './components/topics/topics.component';
 import { ArticlesHomeComponent } from './components/articles-home/articles-home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { IntroHomeComponent } from './components/intro-home/intro-home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     CarroselComponent,
     TopicsComponent,
     ArticlesHomeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    IntroHomeComponent
   ],
   imports: [
     BrowserModule,

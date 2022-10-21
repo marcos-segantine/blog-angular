@@ -1,5 +1,5 @@
 .articles-container {
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 .articles-container nav {
@@ -19,7 +19,7 @@ li {
 }
 
 li.selected {
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #b4b4b4;
 }
 
 .articles {
@@ -31,7 +31,14 @@ li.selected {
 
 article {
     width: 90%;
-    margin: 2rem 0;
+    margin: 1rem 0;
+    background-color: #2020205d;
+    transition: all .3s;
+    padding: 2rem;
+}
+
+article:hover {
+    transform: translateX(2%);
 }
 
 article h4 {
@@ -54,6 +61,6 @@ article h4 {
 
     article {
         width: 35%;
-        margin: 3rem 2rem;
+        margin: 1rem 2rem;
     }
 }

@@ -1,0 +1,26 @@
+.intro-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 27rem;
+    width: 100%;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 2rem;
+    text-align: center;
+}
+
+.line{
+    background-color: var(--gray);
+    height: 1px;
+    width: 70%;
+    margin-top: 5rem;
+}
