@@ -44,15 +44,15 @@ li {
 }
 
 .js:hover {
-    background-color: #EBC32E;
+    background-color: #ebc22ece;
 }
 
 .react:hover {
-    background-color: #46CAF1;
+    background-color: #46c9f1c4;
 }
 
 .sql:hover {
-    background-color: 	#FFA500 ;
+    background-color: 	#ffa600d3 ;
 }
 
 .csharp:hover {

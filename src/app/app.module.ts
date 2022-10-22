@@ -12,6 +12,8 @@ import { TopicsComponent } from './components/topics/topics.component';
 import { ArticlesHomeComponent } from './components/articles-home/articles-home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { IntroHomeComponent } from './components/intro-home/intro-home.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { IntroHomeComponent } from './components/intro-home/intro-home.component
     TopicsComponent,
     ArticlesHomeComponent,
     PortfolioComponent,
-    IntroHomeComponent
+    IntroHomeComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+header {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 2rem 0;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    font-size: 1.1rem;
+}
+
+.selected {
+    font-weight: bold;
+    color: #eee;
+}

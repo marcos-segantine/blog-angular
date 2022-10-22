@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    min-height: 27rem;
+    min-height: 20rem;
     width: 100%;
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 4rem;
+    text-align: center;
 }
 
 p {
@@ -18,9 +19,16 @@ p {
     text-align: center;
 }
 
-.line{
+.line {
     background-color: var(--gray);
     height: 1px;
     width: 70%;
     margin-top: 5rem;
+}
+
+@media(min-width: 1023px) {
+    h2 {
+        font-size: 5rem;
+    }
+
 }
