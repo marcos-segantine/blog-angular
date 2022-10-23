@@ -28,6 +28,7 @@ a {
 button {
     background-color: var(--purple);
     color: white;
+    cursor: pointer;
 }
 
 h3 {

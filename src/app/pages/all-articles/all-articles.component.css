@@ -1,0 +1,26 @@
+.all-articles {
+    position: relative;
+}
+
+.tecnologies {
+    display: none;
+}
+
+li {
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+@media(min-width: 1023px) {
+    .tecnologies {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+        position: absolute;
+        top: 550px;
+        right: 0;
+        width: 15%;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
