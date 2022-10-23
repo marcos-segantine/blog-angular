@@ -7,13 +7,13 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AllArticlesComponent } from './pages/all-articles/all-articles.component';
 import { PortifolioComponent } from './pages/portifolio/portifolio.component';
-import { CarroselComponent } from './components/carrosel/carrosel.component';
 import { TopicsComponent } from './components/topics/topics.component';
-import { ArticlesHomeComponent } from './components/articles-home/articles-home.component';
+import { ArticlesComponent } from './components/articles/articles.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { IntroHomeComponent } from './components/intro-home/intro-home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { CarroselComponent } from './components/carrosel/carrosel.component';
 
 @NgModule({
   declarations: [
@@ -22,19 +22,16 @@ import { FooterComponent } from './shared/footer/footer.component';
     AboutComponent,
     AllArticlesComponent,
     PortifolioComponent,
-    CarroselComponent,
     TopicsComponent,
-    ArticlesHomeComponent,
+    ArticlesComponent,
     PortfolioComponent,
     IntroHomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CarroselComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,53 +1,74 @@
 .carrosel {
-    height: 100vh;
-    width: 100%;
-    background-color: #eee;
-}
-
-#prev-banner,
-#next-banner {
-    display: none;
-}
-
-.navegation-banner {
-    position: absolute;
-    bottom: 50px;
-    right: 0;
-    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 
-.navegation-banner span {
-    background-color: black;
-    padding: .5rem .8rem;
-    border-radius: 40px;
-    margin: 0 .5rem;
+.roadmap-front,
+.roadmap-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    min-height: 25rem;
+    animation: changeBanner .4s;
+}
+
+.roadmap-front div:first-child h3,
+.roadmap-back div:first-child h3 {
+    font-size: 3rem;
+    margin-bottom: .8rem;
+}
+
+.roadmap-front div:first-child button,
+.roadmap-back div:first-child button {
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+}
+
+.img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.display-none {
+    /* transform: translateX(500%); */
+    display: none;
 }
 
 @media(min-width: 767px) {
 
-    #prev-banner,
-    #next-banner {
-        height: 100%;
-        width: max-content;
-        display: flex;
-        align-items: center;
+    .roadmap-front,
+    .roadmap-back {
+        flex-direction: row;
+        justify-content: space-around;
     }
 
-    #prev-banner {
-        position: absolute;
-        top: 0;
-        left: 0;
+    .roadmap-front div:first-child h3,
+    .roadmap-back div:first-child h3 {
+        font-size: 4.5rem;
+        margin-bottom: .8rem;
     }
 
-    #next-banner {
-        position: absolute;
-        top: 0;
-        right: 0;
+    .roadmap-front div:first-child p,
+    .roadmap-back div:first-child p {
+        font-size: 1.5rem;
+    }
+}
+
+@keyframes changeBanner {
+    from {
+        transform: translateX(-200%);
     }
 
-    .navegation-banner {
-        justify-content: center;
+    to {
+        transform: translateX(0);
     }
 }
