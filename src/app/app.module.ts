@@ -14,6 +14,7 @@ import { IntroHomeComponent } from './components/intro-home/intro-home.component
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CarroselComponent } from './components/carrosel/carrosel.component';
+import { SearchArticlesComponent } from './components/search-articles/search-articles.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { CarroselComponent } from './components/carrosel/carrosel.component';
     HeaderComponent,
     FooterComponent,
     CarroselComponent,
+    SearchArticlesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
