@@ -19,6 +19,6 @@ export class CarroselComponent implements OnInit {
         banners[1].classList.remove('display-none');
         banners[0].classList.add('display-none');
       }
-    }, 5000);
+    }, 50000);
   }
 }
